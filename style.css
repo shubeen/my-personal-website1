@@ -1,0 +1,69 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+}
+#name{
+    margin: 8%;
+}
+
+
+
+.highlight{
+    color: brown;
+    font-size: 40px;
+    
+}
+p{
+    color: cornflowerblue;
+    margin-bottom: 40px;
+    text-align: justify;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(50deg,blue,aqua);
+    border-radius: 7px;
+    
+    padding: 5px 10px;
+    color: burlywood;
+    font-size: 25px;
+}
+.top-part{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-left: 3%;
+}
+.top-part img{
+    width: 100%;
+    float: right;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,red,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+section{
+    height: 600px;
+
+}
+.middle-part img{
+    width: 40%;
+    float: left;
+    
+}
+#biography{
+    width: 30%;
+    margin-right: 5%;
+    padding-left: 3%;
+    float: right;
+    
+}
+
+
+
