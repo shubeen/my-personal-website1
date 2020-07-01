@@ -5,6 +5,19 @@ body{
 #name{
     margin: 8%;
 }
+.top{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+.middle{
+    background-image: url("biography-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+    height: 600px;
+}
+.last{
+    background-image: url("footer-bg.png");
+}
 
 
 
@@ -49,20 +62,42 @@ p{
     font-weight: 700;
 }
 section{
-    height: 600px;
+    height: 500px;
+    padding-bottom: 100px;
 
 }
 .middle-part img{
-    width: 40%;
+    width: 100%;
+    float: right;
+    }
+
+.middle-part{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-left: 90px;
+    float: left;
+}
+.last-heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.work-image{
+    width: 30%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
     float: left;
     
 }
-#biography{
-    width: 30%;
-    margin-right: 5%;
-    padding-left: 3%;
-    float: right;
-    
+.work-image img{
+    width: 100%;
+}
+.conclusion{
+    text-align: center;
+}
+h4{
+    color:dimgray;
 }
 
 
